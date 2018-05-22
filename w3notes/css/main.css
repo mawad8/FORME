@@ -1,0 +1,51 @@
+
+/*we but the hight becuse we wanna see it we cant see any div without text without hight
+and here we use margin:0 auto insted of text alighn becuse there is no text to center it; */
+.bo{
+	background-color: green;
+	height: 200px;
+	width: 50vw;
+}
+.vv{
+	margin: 0 auto;
+	background-color: black;
+	font-size: 10px;
+	height: 50px;
+	width: 25vw;
+	color: white;
+	text-align: center;
+}
+/* target Div that has the class of box*/
+/**/
+div.box{
+
+}
+/*if we wanna target the span*/
+/*any span inside the class of bur and that bur class has to be inside the class of bob*/
+.bob .bur span{
+	color: yellow;
+}
+.ex{
+/*	font-size: 10px;*/
+}
+.m{
+	display: flex;
+	background: hsla(196, 100%, 55%, 0.3);
+	width: 2em;
+	font-size: 0.5em;
+	padding: 0.2em;
+}
+.m1{
+	display: flex;
+	background: hsla(196, 100%, 55%, 0.3);
+	width: 2em;
+	font-size: 1em;
+	padding: 0.2em;
+}
+.m2{
+	display: flex;
+	background: hsla(196, 100%, 55%, 0.3);
+	width: 2em;
+	font-size: 2em;
+	padding: 0.2em;
+}
